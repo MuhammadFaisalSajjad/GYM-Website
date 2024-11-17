@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: url(../img/gym.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    overflow: hidden;
+}
+.left{
+    display: inline;
+    width: 300px;
+    /* border: 2px solid red; */
+}
+
+.left h3{
+    display: inline-block;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    /* width: 0px; */
+    margin-top: -120px;
+    margin-left: -110px;
+
+}
+
+.left img{
+
+    /* border: 2px solid red; */
+    width: 80px;
+    margin: auto;
+    filter: invert(100%);
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+.mid{
+
+    /* border: 2px solid red; */
+    width: 500px;
+    margin: auto;
+    margin-top: -80px;
+}
+
+.mid li {
+    display: inline;
+    margin: 0px 10px;
+    font-size: 20px;
+    /* padding-top: 500px; */
+}
+
+.mid li a{
+    /* padding-top: px; */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.mid li a:hover{
+    color: #ffc107;
+}
+
+
+
+
+.right{
+
+    /* border: 2px solid red; */
+    width: 280px;   
+    display: inline;
+    /* text-align: right; */
+    float: right;
+    margin: -30px;
+    /* margin-right:0px; */
+    /* margin-top: -30px; */
+
+    
+}
+.right .btn{
+    margin-right: 30px;
+    font-size: 17px;
+    background-color: rgba(10, 10, 10, 0.959);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai', cursive;
+    border: 2px solid grey;
+    padding: 0px 10px;
+
+}
+
+.right .btn:hover{
+
+    cursor: pointer;
+    color: #ffc107;
+    /* background-color: rgba(3, 3, 44, 0.664); */
+}
+
+
+.container{
+    border: 2px solid white;
+    float: right;
+    display: inline-block;  /* */
+    border-radius: 20px;
+    width: 530px;
+    margin-top: 190px;
+    height: 460px;
+
+}
+
+.container h2{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#i1 , #i2 , #i3 , #i4 , #i5 , #i6{
+
+    font-family: 'Baloo Bhai', cursive;
+    width: 400px;
+    height: 30px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 50px;
+    
+}
+
+
+#i1::placeholder, #i2::placeholder, #i3::placeholder,#i4::placeholder,#i5::placeholder,#i6::placeholder{
+    text-align: center;
+}
+
+
+#i7{
+
+    font-family: 'Baloo Bhai', cursive;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 50px;
+    
+}
+
+#i7::placeholder{
+    color: white;
+    text-align: center;
+}
